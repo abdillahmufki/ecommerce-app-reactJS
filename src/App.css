@@ -8,6 +8,7 @@
 :root {
   --color-dark-blue: #131921;
   --color-dark: #3b4149;
+  --color-orange: #febd69;
 }
 
 body {
@@ -19,9 +20,21 @@ a {
   display: inline-block;
 }
 
+.form-control:focus {
+  box-shadow: none;
+  border: inherit;
+}
+
 /*=================Header==============*/
 .header-top-strip {
   background-color: var(--color-dark-blue);
   border-bottom: 1px solid var(--color-dark);
 }
 /*=================Header PART END==============*/
+
+.header-upper {
+  background-color: var(--color-dark-blue);
+}
+.header-upper .input-group-text {
+  background-color: var(--color-orange);
+}
