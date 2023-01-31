@@ -1,7 +1,7 @@
 import React from "react";
-import { BsSearch } from "react-icons/bs";
 import { Link } from "react-router-dom";
-function Footer() {
+import { BsLinkedin, BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
+const Footer = () => {
   return (
     <>
       <footer className="py-4">
@@ -36,30 +36,107 @@ function Footer() {
           <div className="row">
             <div className="col-4">
               <h4 className="text-white mb-4">Contact Us</h4>
-              <div></div>
+              <div>
+                {" "}
+                <div className="footer-links d-flex flex-column">
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Demo Store
+                  </Link>
+                  <Link className="text-white py-2" to="/">
+                    <address className="fs-6">
+                      Jl. Cisitu Indah Vll No. 98, 40135 Bandung, Indonesia
+                    </address>
+                  </Link>
+                  <Link className="text-white py-2" to="/">
+                    <a href="tel:+62 22 203 1234" className="d-block ">
+                      +62 22 203 1234
+                    </a>
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    <a href="mailto:Tokobagus@gmail.com" className="d-block">
+                      Tokobagus@gmail.com
+                    </a>
+                    <div className="social_icons d-flex align-items-center gap-30 mt-4">
+                      <a href="/">
+                        <BsLinkedin className="text-white fs-4" />
+                      </a>
+                      <a href="/">
+                        <BsFacebook className="text-white fs-4" />
+                      </a>
+                      <a href="/">
+                        <BsInstagram className="text-white fs-4" />
+                      </a>
+                      <a href="/ ">
+                        <BsYoutube className="text-white fs-4" />
+                      </a>
+                    </div>
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="col-3">
               <h4 className="text-white mb-4">Information</h4>
-              <div></div>
+              <div>
+                {" "}
+                <div className="footer-links d-flex flex-column">
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Privacy Policy
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Refund Policy
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Shipings Policy
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Terms & Service
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Blogs
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="col-3">
               <h4 className="text-white mb-4">Account</h4>
-              <div></div>
+              <div>
+                {" "}
+                <div className="footer-links d-flex flex-column">
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Search
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    About Us
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Faq
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Contact
+                  </Link>
+                  <Link className="text-white py-2 mb-1" to="/">
+                    Size Chart
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="col-2">
               <h4 className="text-white mb-4">Quick Links</h4>
-              <div className="footer-links">
+              <div className="footer-links d-flex flex-column">
+                <Link className="text-white py-2 mb-1" to="/">
+                  Accessories
+                </Link>
                 <Link className="text-white py-2 mb-1" to="/">
                   Laptops
                 </Link>
                 <Link className="text-white py-2 mb-1" to="/">
-                  Handphones
+                  Headphone
                 </Link>
                 <Link className="text-white py-2 mb-1" to="/">
-                  Tablet
+                  Smart Watches
                 </Link>
                 <Link className="text-white py-2 mb-1" to="/">
-                  Watch
+                  Tablets
                 </Link>
               </div>
             </div>
@@ -80,6 +157,6 @@ function Footer() {
       </footer>
     </>
   );
-}
+};
 
 export default Footer;
