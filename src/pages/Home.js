@@ -93,7 +93,41 @@ const Home = () => {
       <section className="home-wrapper-2 py-5">
         <div className="container-fluid">
           <div className="row">
-            <div className=""></div>
+            <div className="col-12">
+              <div className="categories d-flex justify-content-between align-items-ceneter">
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Camera</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/camera.jpg" alt="camera" />
+                </div>
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Speaker</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/speaker.jpg" alt="speaker" />
+                </div>
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smart TV</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/tv.jpg" alt="TV" />
+                </div>
+
+                <div className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Laptops</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/laptop.jpg" alt="laptop" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

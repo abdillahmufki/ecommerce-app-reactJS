@@ -11,6 +11,7 @@
   --color-orange: #febd69;
   --color-dark-blue-2: #232f3e;
   --color-orange-2: #bf4800;
+  --color-f5f5f7: #f5f5f7;
 }
 
 body {
@@ -186,4 +187,24 @@ footer .input-group-text {
 .small-banner {
   width: 49%;
 }
+
+/*=================Home Page Wrapper=====================*/
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
+}
+/*=================Home Page Wrapper End=====================*/
+
+/*=================Categories Section=====================*/
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+.categories > div {
+  width: 24%;
+}
+
+/*=================Categories Section End=====================*/
+
 /*=================Home Page END=====================*/
