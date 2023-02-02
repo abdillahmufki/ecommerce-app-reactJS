@@ -16,6 +16,13 @@
 }
 
 .card-wrapper {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.card-wrapper {
   background-color: white;
   box-shadow: 0 0 10px #0000001a;
   padding: 15px;
@@ -236,4 +243,52 @@ footer .input-group-text {
 
 /*=================Categories Section End=====================*/
 
-/*=================Home Page END=====================*/
+/*======================Home Page END=========================*/
+
+/*======================Blog Card Page=========================*/
+.blog-card {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  border-radius: 10px;
+}
+
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-content {
+  padding: 10px;
+}
+
+.blog-content p {
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--color-dark);
+  letter-spacing: 0.4px;
+}
+
+.blog-content h5 {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--color-dark-blue);
+  letter-spacing: 0.4px;
+  font-weight: 500;
+}
+
+.btn-blog {
+  background-color: var(--color-dark-blue-2);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.btn-blog:hover {
+  background-color: var(--color-orange);
+}
+/*======================Blog Card PageEND======================*/

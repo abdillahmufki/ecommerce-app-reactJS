@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
+import BlogCard from "../components/BlogCard";
 
 const Home = () => {
   return (
@@ -244,6 +245,45 @@ const Home = () => {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Latest Blogs</h3>
+            </div>
+            <BlogCard
+              date="28 januari, 2001"
+              title="A Beautiful Morning Renaissance"
+              description="You're Only As Good As Your Last Collection. 
+              Which is An Enormous Pressure. I Think There Is Something About"
+              button="Read More"
+            />
+            <BlogCard
+              date="28 januari, 2001"
+              title="A Beautiful Morning Renaissance"
+              description="You're Only As Good As Your Last Collection. 
+              Which is An Enormous Pressure. I Think There Is Something About"
+              button="Read More"
+            />
+            <BlogCard
+              date="28 januari, 2001"
+              title="A Beautiful Morning Renaissance"
+              description="You're Only As Good As Your Last Collection. 
+              Which is An Enormous Pressure. I Think There Is Something About"
+              button="Read More"
+            />
+            <BlogCard
+              img="../../public/images/card-image-1.jpg"
+              date="28 januari, 2001"
+              title="A Beautiful Morning Renaissance"
+              description="You're Only As Good As Your Last Collection. 
+              Which is An Enormous Pressure. I Think There Is Something About"
+              button="Read More"
+            />
           </div>
         </div>
       </section>
